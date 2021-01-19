@@ -1,0 +1,19 @@
+<html>
+  <head></head>
+  <body>
+    <h1>Instnt Standard SignUp Form</h1>
+    <div class="insnt-form-container" style="text-align: center">
+      <div id="instnt-form-generator" class="container"></div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+        const formId = 'v879876100000';
+        const serviceUrl = 'https://sandbox-api.instnt.org';
+        $(document).ready(function () {
+          $.get(serviceUrl + '/getformcodes/' + formId, function (data, status) {
+            $('#instnt-form-generator').html(data.html);
+          });
+        });
+      </script>
+    </div>
+  </body>
+</html>
