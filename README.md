@@ -38,4 +38,4 @@ When ready, enter the [following code](https://github.com/instnt-inc/instnt-js/b
   </body>
 </html>
 ```
-In the above snippet you may create your own form ID or use the above one as a quick example. The data is passed into the sandbox environment ready for pre-provisioned customers to be passed through for validation testing; this may be changed by editing the const serviceUrl field and entering api.instnt.org to send it to the live environment. 
+In the above snippet you may create your own form ID or use the one above as a quick example. The data is passed into the sandbox environment ready for pre-provisioned customers to be passed through for validation testing; this may be changed by editing the const serviceUrl field and entering api.instnt.org to send it to the live environment. 
