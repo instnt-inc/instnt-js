@@ -1,5 +1,5 @@
 # Instnt JavaScript Standard Form
-This documentation covers the basics of Instnt's vanilla JavaScript implementation. For a more detailed look at Instnt's platform functionality, visit [Instnt's documentation library](https://support.instnt.org/hc/en-us)
+This documentation covers the basics of Instnt's vanilla JavaScript implementation. For a more detailed look at Instnt's platform functionality, visit [Instnt's documentation library](https://support.instnt.org/hc/en-us/articles/360055345112-Integration-Overview)
 
 # Rendering a Standard Signup Form with Instnt.js
 Instnt's vanilla JavaScript implementation renders a standard form that includes the following fields:
