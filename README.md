@@ -2,10 +2,10 @@
 This documentation covers the basics of Instnt's vanilla JavaScript implementation. For a more detailed look at Instnt's platform functionality, visit [Instnt's documentation library](https://support.instnt.org/hc/en-us/articles/360055345112-Integration-Overview)
 
 ### Table of Contents
-- [Rendering a Standard Signup Form with Instnt.js](https://github.com/instnt-inc/instnt-react-js#rendering-a-standard-signup-form-with-instnt-react-sdk)
-- [Building and Submitting Custom Forms using JavaScript SDK](https://github.com/instnt-inc/instnt-react-js#rendering-a-custom-signup-form-with-instnt-react-sdk)
-- [Submit Form to Instnt Using the JavaScript Helper Function](https://github.com/instnt-inc/instnt-react-js#submit-form-to-instnt-using-the-javascript-helper-function)
-- [Submit Form to Instnt via API](https://github.com/instnt-inc/instnt-react-js#submit-form-to-instnt-via-api)
+- [Rendering a Standard Signup Form with Instnt.js](https://github.com/instnt-inc/instnt-js#rendering-a-standard-signup-form-with-instntjs)
+- [Building and Submitting Custom Forms using JavaScript SDK](https://github.com/instnt-inc/instnt-js#building-and-submitting-custom-forms-using-javascript-sdk)
+- [Submit Form to Instnt Using the JavaScript Helper Function](https://github.com/instnt-inc/instnt-js#submit-form-to-instnt-using-the-javascript-helper-function)
+- [Submit Form to Instnt via API](https://github.com/instnt-inc/instnt-js#submit-form-to-instnt-using-the-javascript-helper-function)
 
 ## Rendering a Standard Signup Form with Instnt.js
 Instnt's vanilla JavaScript implementation renders a standard form that includes the following fields:
