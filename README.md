@@ -35,7 +35,7 @@ When ready, enter the [following code](https://github.com/instnt-inc/instnt-js/b
         const formId = 'v879876100000';
         const serviceUrl = 'https://sandbox-api.instnt.org';
         $(document).ready(function () {
-          $.get(serviceUrl + '/getformcodes/' + formId, function (data, status) {
+          $.get(serviceUrl + '/public/getformcodes/' + formId, function (data, status) {
             $('#instnt-form-generator').html(data.html);
           });
         });
@@ -59,7 +59,7 @@ In the above snippet you may create your own workflow ID or use the one above as
         const formId = 'v879876100000';
         const serviceUrl = 'https://sandbox-api.instnt.org';
         $(document).ready(function () {
-          $.get(serviceUrl + '/getformcodes/' + formId + '?hide_form_fields=true', function (data, status) {
+          $.get(serviceUrl + '/public/getformcodes/' + formId + '?hide_form_fields=true', function (data, status) {
             $('#instnt-form-generator').html(data.html);
           });
         });
