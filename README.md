@@ -77,11 +77,11 @@ In the above snippet you may create your own workflow ID or use the one above as
 
 Instnt provides a helper function to submit the form data window.instnt.submitCustomForm(data: any, redirect: Boolean = true)
 
-* `data` - JavaScript object with key:value user entred data
+* `data` - JavaScript object with key:value user entred data.
 
-* `redirect` - if false, no automatic redirect will occur upon receiving a response
+* `redirect` - If false, no automatic redirect occurs upon receiving a response.
 
-Developers can also set window.instnt.onResponse to an event handler/callback that will be invoked after the response is received from Instnt. The handler will be passed to parameters: onResponse(error, data). `error` will contain error information if one occurred.
+Developers can also set window.instnt.onResponse to an event handler/callback that is invoked after the response is received from Instnt. The handler is passed to the following parameters: onResponse(error, data). `error` contains error information if an error occurred during the callabck.
 
 
 ```jsx
